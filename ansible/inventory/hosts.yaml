@@ -1,0 +1,8 @@
+---
+kubernetes:
+  children:
+    master:
+      hosts:
+        darwin:
+          ansible_user: jellybean
+          ansible_host: 192.168.1.224
